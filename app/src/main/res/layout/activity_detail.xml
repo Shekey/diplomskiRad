@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNaziv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:text="Naziv"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <!--<ImageView-->
+                <!--android:id="@+id/ivIcon"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="400dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/avengers" />-->
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+
+            >
+            <!--android:background="@drawable/rounded_bg"-->
+
+            <TextView
+                android:id="@+id/tvCijena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cijena"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvJedinicaMjere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tagline"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+
+            android:paddingRight="16dp"
+
+            android:paddingTop="4dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+
+                android:gravity="left"
+                android:text="Kolicina"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.6"
+                android:ems="10"
+                android:hint="Unesite kolicinu"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10sp"
+                android:text=""
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+
+
+            android:paddingTop="0dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txCij"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+
+                android:text="Nova cijena"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/new_price"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.55"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="Unesite novu cijenu"
+                android:inputType="numberDecimal"
+                android:paddingLeft="8dp"
+                android:text=""
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+
+            android:weightSum="0.40">
+
+            <!--<TextView-->
+            <!--android:id="@+id/textView2"-->
+            <!--android:layout_width="0dip"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:textSize="17dp"-->
+            <!--android:gravity="center_vertical|end"-->
+            <!--android:text="@string/quantity" />-->
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spQuantity"-->
+            <!--android:layout_width="0dip"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.25"/>-->
+
+            <Button
+                android:id="@+id/bOrder"
+                android:layout_width="0dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:background="@android:color/holo_orange_light"
+                android:text="@string/order"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

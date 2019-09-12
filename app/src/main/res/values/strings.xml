@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">KATALOG NUR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order">Dodaj u korpu</string>
+    <string name="action_search">Search ...</string>
+    <string name="zavrsetak_svega">Prekid kupovine</string>
+    <string name="cisti_sve">Da li želite odustati od kupovine ?</string>
+    <string name="da">Da</string>
+    <string name="Ne">Ne</string>
+    <string name="delete_item">Brisanje stavke</string>
+    <string name="delete_item_message">Da li želite obrisati ?</string>
+    <string name="brisanje_kupca">Brisanje kupca</string>
+    <string name="delete_kupac">Da li želite prekinut kupovinu za trenutnog kupca ?</string>
+    <string name="odaberite_kupca_za_nastavak_kupovine">Odaberite kupca za nastavak kupovine</string>
+    <string name="service_name">Uploading files</string>
+    <string name="NazivArtikla">Naziv_arikla</string>
+    <string name="Cijena">Cijena</string>
+    <string name="kolicina">Kolicina</string>
+    <string name="ime_i_prezime_kupca">IME I PREZIME KUPCA</string>
+    <string name="datum">DATUM</string>
+    <string name="kolicinaDetalji">Količina</string>
+    <string name="unos_kolicine">Unesite količinu</string>
+    <string name="stanje">STANJE</string>
+    <string name="kategorija">KATEGORIJA</string>
+    <string name="cijena">Cijena</string>
+    <string name="naziv">Naziv</string>
+    <string name="o_isti_korpu">Očisti korpu</string>
+    <string name="svi_proizvodi">Svi proizvodi</string>
+    <string name="detele_cart">Brisanje cijele kupovine </string>
+    <string name="detele_korpe">Da li želite očistiti korpu ?</string>
+    <string name="hint_cijena">Unesite novu cijenu</string>
+    <string name="text_nova_cijena">Nova cijena</string>
+    <string name="Ukupno">Ukupno:</string>
+    <string name="unesite_va_e_ime">Unesite vaše ime</string>
+    <string name="unesite_ime">Unesite ime</string>
+</resources>

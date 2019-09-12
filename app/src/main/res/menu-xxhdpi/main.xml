@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_sync"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="Sinhronizacija"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_stat_cart"
+        android:title="Korpa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_All"
+        android:title="@string/svi_proizvodi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_remove"
+        android:title="@string/o_isti_korpu"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_grid"
+        android:title="3x3 pregled" />
+
+</menu>
